@@ -1,10 +1,12 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Image, Text, View } from 'react-native'
+import "../global.css";
 
 const ProfileDetails = () => {
   return (
-    <View>
-      <Text>ProfileDetails</Text>
+    <View className='flex-1 justify-center items-center bg-withe w-screen h-screen'>
+    <Image className='rounded-full size-[<200>]'source={require('../assets/images/icon.png')} />
+    
     </View>
   )
 }
