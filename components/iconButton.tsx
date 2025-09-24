@@ -7,12 +7,13 @@ interface IconButtonProps{
     pulsar: ()=>void;//metodo
     icon: string;//cadena
     enlace?: string;//cadena
+    color: string;//cadena
 }
 
-const IconButton = ({icon, pulsar, enlace}:IconButtonProps) => {
+const IconButton = ({icon, pulsar, color, enlace}:IconButtonProps) => {
   return (
-    <Pressable onPress={pulsar}>
-        <Ionicons name={icon as any} size={32} color="black" />
+    <Pressable onPress={pulsar} className='rounded-xl p-3 border-b-4 border-r-2 border-gray-500'>
+        <Ionicons name={icon as any} size={32} color={color} />
     </Pressable>
   )
 }
