@@ -1,7 +1,8 @@
-import React from 'react'
-import { Image, Text, View } from 'react-native'
+import React from 'react';
+import { Image, Text, View } from 'react-native';
 import "../global.css";
-import IconButton from "./iconButton";
+import IconButton from "./ui/iconButton";
+import CustomText from "./ui/CustomText";
 
 const ProfileDetails = () => {
   return (
@@ -10,8 +11,8 @@ const ProfileDetails = () => {
       source={require('../assets/images/icon.png')} 
       className="max-h-36 max-w-36 rounded-full"
     />
-    <Text className="text-2xl font-bold">Mathias Zambrano</Text>
-    <Text className="text-xl font-bold text-gray-300">Discipulo de gogigagagigo</Text>
+    <CustomText variant="title" value="Mathias Zambrano"/>
+    <CustomText variant="subtitle" value="Discipulo de gogigagagagigo"/>
     <View className='flex-row  gap-4'>
     <IconButton icon='logo-instagram' pulsar={()=>console.log('instagram')} color="magenta"></IconButton>
     <IconButton icon='logo-facebook' pulsar={()=>console.log('facebook')} color="blue"></IconButton>

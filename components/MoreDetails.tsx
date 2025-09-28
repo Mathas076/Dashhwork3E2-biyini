@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text } from 'react-native'
-import IconButton from './iconButton'
+import IconButton from './ui/iconButton'
 
 const MoreDetails = () => {
   return (
