@@ -5,7 +5,7 @@ import IconButton from "./iconButton";
 
 const ProfileDetails = () => {
   return (
-  <View className="flex justify-center items-center">
+  <View className="flex justify-center items-center h-1/2">
     <Image 
       source={require('../assets/images/icon.png')} 
       className="max-h-36 max-w-36 rounded-full"
@@ -15,8 +15,8 @@ const ProfileDetails = () => {
     <View className='flex-row  gap-4'>
     <IconButton icon='logo-instagram' pulsar={()=>console.log('instagram')} color="magenta"></IconButton>
     <IconButton icon='logo-facebook' pulsar={()=>console.log('facebook')} color="blue"></IconButton>
-    <IconButton icon='logo-twitter' pulsar={()=>console.log('twitter')} color="black"></IconButton>
-    <IconButton icon='logo-whatsapp' pulsar={()=>console.log('linkedin')} color="lime"></IconButton>
+    <IconButton icon='logo-twitter' pulsar={()=>console.log('twitter')} color="lightblue"></IconButton>
+    <IconButton icon='logo-whatsapp' pulsar={()=>console.log('whatsapp')} color="lime"></IconButton>
     </View>
 
   </View>

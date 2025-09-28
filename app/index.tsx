@@ -1,4 +1,5 @@
 import ProfileDetails from "@/components/profile-details";
+import MoreDetails from "@/components/MoreDetails";
 import { View } from "react-native";
 import "../global.css";
 
