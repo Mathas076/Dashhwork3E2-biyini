@@ -5,8 +5,9 @@ import "../global.css";
 
 export default function Index() {
   return (
-    <View className="flex justify-start items-center bg-sky-300 w-screen h-screen">
+    <View className="w-screen h-screen flex justify-start items-center bg-sky-300 rounded-lg ">
       <ProfileDetails></ProfileDetails>
+      <MoreDetails></MoreDetails>
     </View>
   );
 }

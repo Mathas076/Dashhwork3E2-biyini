@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 
 interface CustomTextProperties{
     value:string;
-    variant?: "normal" | "title" | "subtitle";
+    variant?: "normal" | "title" | "subtitle" | "link";
 }
 
 const CustomText = ({value, variant="normal"}:CustomTextProperties) => {
