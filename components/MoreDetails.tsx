@@ -20,7 +20,7 @@ const MoreDetails = () => {
       </View>
       <View className="flex-row items-center gap-2">  
         <IconButton icon='call' pulsar={()=>console.log('call')} color='black'></IconButton>
-        <CustomText variant='normal' value='mathiaszambrano@gmail.com'/>
+        <CustomText variant='normal' value='10111114'/>
       </View>
     </View>
   )
